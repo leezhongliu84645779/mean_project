@@ -1,0 +1,9 @@
+console.log("hahaha!");
+var express = require('express');
+var app = express();
+var server = app.listen(3000);
+var routes = require('./api/routes');
+var path = require('path');
+app.set('port', 3000);
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/', routes);
