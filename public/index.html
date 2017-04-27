@@ -15,7 +15,12 @@
 			<a class = "signup-button">Signup</a>
 			<a>Login</a>
 		</nav>
-		<section>
+		<section id = "video-player">
+			<video autoplay muted loop>
+				<source src="video/home-video.mp4" type="video/mp4">
+			</video>
+		</section>
+		<section id = "section-image-container">
 			<div class = "image-container">
 				<div class = "search-container">
 					<form action="" method="get">
@@ -33,32 +38,22 @@
 			</div>
 		</section>
 		<section id = "intro">
-			<div id = "intro-head">
-				<h>What We Do?</h1>
-			</div>
-			<div id = "intro-body">
-				<div>
-					<span>
-						<i class="fa fa-cutlery" aria-hidden="true"></i>
-					</span>
-					<p>We provide an online platform for current restaurant, allowing them to create a dashboard for 
-						their own restaurant and create info (like dish menu) for their restaurant.</p>
-				</div>
-				<div>
-					<span>
-						<i class="fa fa-yelp" aria-hidden="true"></i>
-					</span>
-					<p>User can upload their comments about a specific restaurant like what they did in Yelp. With this function user can find the best rated restaurants nearby.</p>
-				</div>
-				<div>
-					<span>
-						<i class="fa fa-car" aria-hidden="true"></i>
-					</span>
-					<p>User can reserve the restaurants beforehand through this online platform so that they don't have to wait from the long line.</p>
-				</div>
+			<div class = "intro-right">
+				<h>What We Do?</h>
+				<ul>
+					<li><i class="fa fa-map-marker" aria-hidden="true"></i>search nearby restaurants of interest through location-specific restaurant recommendations, restaurant menu access, and search bar.</li>
+					<li><i class="fa fa-shopping-cart" aria-hidden="true"></i>Send your order to group organizer with just a click on menu dishes.</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Confirm with restaurant your order when you arrive and easily make last-minute order adjustment.</li>
+					<li><i class="fa fa-money" aria-hidden="true"></i>Easy bill splitting after meal </li>
+					<li><i class="fa fa-laptop" aria-hidden="true"></i>Digital receipt stored in your account</li>
+				</ul>
+				<img class = "app-store-icon" src= "https://www.opengate.biz/wp-content/uploads/2016/06/AppStoreLogo.png">
+				</img>
+				<img class = "android-icon" src= "http://www.pop-i.fm/images/support-art/PlayStore.png">
+				</img>
 			</div>
 		</section>
-		<section>
+		<section id = "team">
 			<div class = "team-container">
 				<div id = "team-head">
 					<h>Team Members</h>
@@ -66,26 +61,33 @@
 			<div>
 			<div class = "team-body">
 				<div class = "developer-card">
-					<img class = "developer-image" src = "https://maxcdn.icons8.com/Share/icon/Users//user1600.png">
+					<img class = "developer-image" src = "img/member1.png">
 					</img>
-					<p>Team Member 1</p>
+					<p>Tammy Ho</p>
+					<p>CEO</p>
 				</div>
 				<div class = "developer-card">
-					<img class = "developer-image" src = "https://maxcdn.icons8.com/Share/icon/Users//user1600.png"> 
+					<img class = "developer-image" src = "img/member2.png"> 
 					</img>
-					<p>Team Member 2</p>
+					<p>Sandy Li</p>
+					<p>COO</p>
 				</div>
 				<div class = "developer-card">
-					<img class = "developer-image" src = "https://maxcdn.icons8.com/Share/icon/Users//user1600.png">
+					<img class = "developer-image" src = "img/member3.png">
 					</img>
-					<p>Team Member 3</p>
+					<p>Allen Li</p>
+					<p>CFO</p>
+				</div>
+				<div class = "developer-card">
+					<img class = "developer-image" src = "img/member4.png">
+					</img>
+					<p>Lichang Xu</p>
+					<p>CTO</p>
 				</div>
 			</div>
-		</section>
-		<section>
 			<footer>
 				<ul class = "developer">
-					<li>Developed by @Lichang Xu</li>
+					<li>Developed by @RestaurantWallet <i class="fa fa-trademark" aria-hidden="true"></i></li>
 				</ul>
 				<ul class = "other">
 					<li>Lease</li>

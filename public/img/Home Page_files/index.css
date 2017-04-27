@@ -1,0 +1,349 @@
+head, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+nav {
+	/*box-shadow: 1px 1px 2px #888888;*/
+	background-color: transparent;
+	height: 65px;
+	width: 100%;
+	/*border-bottom: 1px solid #cccccc;*/
+	display: block;
+	position: fixed;
+	z-index: 2;
+}
+
+#section-image-container {
+	height: 100vh;
+	display: block;
+}
+
+#video-player video{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+	display: block;
+	overflow: hidden; 
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+	margin-right: 45px;
+	color: white;
+	font-weight: 800;
+	padding-top: 5px;
+}
+
+nav ul .navbar-first-element {
+	margin-left: 90px;
+}
+
+
+nav a {
+	float: right;
+	display: inline-block;
+	color: white;
+	position: relative;
+	top: -6px;
+	left: -55px;
+	margin-right: 30px;
+	border-radius: 0.5em;
+	padding-left: 25px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+
+nav .signup-button {
+	height: 20px;
+	width: 40px;
+	border: 1px solid white;
+	font-weight: 800;
+	transition: all 0.4s ease 0.1s;
+}
+
+nav .signup-button:hover{
+	background-color: #3a284c;
+	color: white;
+}
+
+
+.image-container {
+	width: 100%;
+	height: 100vh;
+	background: url("http://images.adsttc.com/media/images/57f3/1cc5/e58e/ce07/b300/0231/large_jpg/Flash_(Bansko.jpg?1475550371") center;
+	opacity: 0.9;
+	z-index: 1;
+	position: relative;
+}
+
+.image-container .search-container {
+	z-index: 2;
+	display: inline-block;
+	position: absolute;
+	margin-top: 47vh;
+	margin-left: 15%;
+	margin-right: 10%;
+	width: 80%;
+	height: 70px;
+	padding: 0px;
+}
+
+.image-container .search-container div {
+	width: 38%;
+	display: inline-block;
+	height: 70px;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.image-container .search-container .submit-div {
+	width: 73px;
+	height: 73px;
+	border: none;
+
+}
+
+.image-container .search-container div input {
+	width: calc(100% - 22px);
+	height: calc(100% - 3px);
+	font-size: 18px;
+	padding-top: 3px;
+	padding-left: 25px;
+	vertical-align: top;
+	border: none;
+	border-right: 1px solid #cccccc;
+}
+
+input:focus{
+    outline: none;
+}
+
+.image-container .search-container div button {
+	display: inline-block;
+	vertical-align: top;
+	height: 73px;
+	width: 73px;
+	background-color: #3a284c;
+	border: none;
+}
+
+
+.image-container .search-container div button span {
+	font-size: 24px;
+	color: white;
+}
+
+#intro-head {
+	margin-top: 90px;
+	width: 100%;
+	text-align: center;
+}
+
+#intro-head h {
+	font-size: 30px;
+}
+
+
+#intro-body {
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	height: 80px;
+	padding: 0px;
+}
+
+#intro-body div{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 24%;
+	margin-top: 25px;
+	/*background-color: black; */
+}
+
+#intro {
+	/*position: relative;*/
+	/*top: -8px;*/
+	margin: 0!important;
+	height: 100%;
+	width: 100%;
+	display: block;
+	height: 100vh;
+	background: url("http://finedininglovers.cdn.crosscast-system.com/ImageAlbum/10992/original_Studio-Mixture-Food-Photography-2.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#intro .intro-right {
+	position: relative;
+	width: 55%;
+	margin-left: 45%;
+	color: white;
+	bottom: -120px;
+}
+
+
+#intro .intro-right h{
+	font-size: 34px;
+	font-weight: 800;
+}
+
+
+#intro .intro-right ul {
+	list-style-type: none;
+	position: relative;
+	left: -55px;
+}
+
+
+#intro .intro-right ul li i {
+	font-size: 35px;
+	margin-right: 15px
+}
+#intro .intro-right ul li {
+	margin-top: 23px;
+	font-size: 16px;
+	transition: all 0.4s ease 0.1s;
+}
+
+.app-store-icon, .android-icon{
+	display: inline-block;
+	height: 85px;
+	width: 220px;
+	margin-top: 60px;
+	margin-left: -22px;
+}
+
+.android-icon{
+	margin-left: 22px;
+}
+
+#team {
+	height: 100vh;
+	/*background-color: white!important;*/
+}
+
+#intro-body div span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 65px;
+	color: #3a284c;
+}
+
+
+#intro-body div p {
+    display: inline-block;
+    word-break: break-all;
+	text-align:justify;
+	word-spacing: 1px;
+	line-height: 165%;
+	font-size: 22px;
+	font-weight: 400;
+} 
+
+
+.team-container {
+	position: absolute;
+	margin-top: 80px;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	height: 600px;
+}
+
+
+.team-container #team-head {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+
+.team-body {
+	width: 100%;
+	height: 360px;
+	padding: 0px;
+}
+
+.team-body .developer-card {
+	margin-top: 35px;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 20%;
+	border-radius: 0.4em; 
+	border: 1px solid #cccccc;
+	text-align: center
+}
+
+
+.team-body .developer-card img {
+	height: 250px;
+	width: 100%;
+}
+
+.team-body .developer-card p {
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+footer {
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	width: calc(100% - 60px);
+	/*height: 110px;*/
+	margin-top: 100px;
+	border-top: 1px solid #DBDBDB;
+}
+
+
+.developer {
+	list-style-type: none;
+}
+
+.developer li {
+	margin-top: 15px;
+	font-weight: 600;
+	margin-left: 40px;
+	float: left;
+}
+
+
+.other {
+	list-style-type: none;
+}
+
+.other li {
+	margin-top: 15px;
+	margin-right: 40px;
+	float: right;
+	font-weight: 600;
+}
+
+#video-player {
+	width: 100%;
+	height: 100vh;
+}
+
+
+@media only screen and (max-width: 888px) {
+	nav, .image-container, #intro-body, #intro-head, .team-container, .team-body, footer {
+		width: 888px;
+	}
+
+}
+
